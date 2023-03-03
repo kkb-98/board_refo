@@ -27,7 +27,7 @@ th{
 $(document).ready(function() {
 	$.ajax({
 		type : 'GET',
-		url : 'http://192.168.99.100:8080/test02/ajax',
+		url : 'http://192.168.99.100:8888/test02/ajax',
 		
 		success : function(data) {
 			
@@ -53,7 +53,7 @@ $(document).ready(function() {
             	console.log("새로고침");
             	$.ajax({
             		type : 'GET',
-            		url : 'http://192.168.99.100:8080/test02/ajax',
+            		url : 'http://192.168.99.100:8888/test02/ajax',
             		
             		success : function(data) {
             			$('#board_body').html(data);
